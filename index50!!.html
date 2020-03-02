@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-		<meta charset="utf-8">
+        <meta charset="utf-8">
         <title>Пример скрипа</title>
 	   <script type="text/javascript">
 	     function newColor(color) {
-		    alert("Вы выбрали "+ color)
+		alert("Вы выбрали "+ color)
 	        document.bgcolor = color
 	     }
 	  </script> 
@@ -13,8 +13,8 @@
     <body>		
          <p>Выберите цвет фона</p>
 	 <form> 
-	     <input type="button" value="серый" onClick="newColor('gray')">
-	     <input type="button" value="светло-серый" onClick="newColor('lightgray')">
+	     <input type="button" value="серый" onclick="newColor(gray)">
+	     <input type="button" value="светло-серый" onclick="newColor(lightgray)">
 	 </form>
     </body>
 </html>
