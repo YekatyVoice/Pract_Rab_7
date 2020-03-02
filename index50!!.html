@@ -5,16 +5,16 @@
       <title>Пример скрипа</title>
 	   <script type="text/javascript">
 	      function newColor(color) {
-		alert("Вы выбрали "+ color)
-	        document.bgcolor = color
+		alert("Вы выбрали "+ color);
+	        document.bgcolor = color;
 	      }
 	   </script> 
    </head>			      
    <body>		
         <p>Выберите цвет фона</p>
         <form> 
-	     <input type="button" value="серый" onclick="newColor(gray)">
-	     <input type="button" value="светло-серый" onclick="newColor(lightgray)">
+	     <input type="button" value="серый" onclick="newColor('серый')">
+	     <input type="button" value="светло-серый" onclick="newColor('светло-серый')">
 	 </form>
     </body>
 </html>
